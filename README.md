@@ -13,7 +13,7 @@ Default port of RabbitMQ is 15672
 
 Once RabbitMQ is downloaded and installed in your local machine, it can be accessed in the browser using the url http://localhost:15672/
 
-Docker command to install RabbitMq in local system - 
+Docker command to install RabbitMq in local system  
 docker run -d --hostname my-rabbit --name rabbit-container -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 
